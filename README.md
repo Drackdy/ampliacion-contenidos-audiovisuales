@@ -34,7 +34,7 @@ La carpeta `evidencias/` enumera capturas sugeridas para documentar la tarea.
 ## Clonar y ejecutar
 
 ```bash
-git clone https://github.com/Jordy/ampliacion-contenidos-audiovisuales.git
+git clone https://github.com/Drackdy/ampliacion-contenidos-audiovisuales.git
 cd ampliacion-contenidos-audiovisuales
 ```
 
@@ -66,4 +66,4 @@ diagrama-clases.puml  Diagrama UML
 
 ## GitHub
 
-Después de crear el repositorio personal, sustituye `USUARIO` por tu nombre de usuario y agrega el remoto. La creación del repositorio, el push y los commits se realizan desde la cuenta del estudiante.
+https://github.com/Drackdy/ampliacion-contenidos-audiovisuales
