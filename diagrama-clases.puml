@@ -1,0 +1,45 @@
+@startuml
+skinparam classAttributeIconSize 0
+abstract class ContenidoAudiovisual {
+  - titulo: String
+  - duracionEnMinutos: int
+  - genero: String
+  - id: int
+  + mostrarDetalles(): void
+}
+class Pelicula { - estudio: String }
+class SerieDeTV { - temporadas: List<Temporada> }
+class Documental { - tema: String }
+class VideoYouTube {
+  - canal: String
+  - url: String
+}
+class Cortometraje {
+  - director: String
+  - anio: int
+}
+class Actor {
+  - nombre: String
+  - nacionalidad: String
+}
+class Temporada {
+  - numero: int
+  - episodios: int
+  - anioEstreno: int
+}
+class Investigador {
+  - nombre: String
+  - institucion: String
+  - especialidad: String
+}
+class PruebaAudioVisual
+ContenidoAudiovisual <|-- Pelicula
+ContenidoAudiovisual <|-- SerieDeTV
+ContenidoAudiovisual <|-- Documental
+ContenidoAudiovisual <|-- VideoYouTube
+ContenidoAudiovisual <|-- Cortometraje
+Pelicula o-- "0..*" Actor : agregación / elenco
+SerieDeTV *-- "1..*" Temporada : composición
+Documental --> "1" Investigador : asociación
+PruebaAudioVisual ..> ContenidoAudiovisual : crea y demuestra
+@enduml

@@ -1,0 +1,5 @@
+out/
+*.class
+.project
+.classpath
+.settings/
