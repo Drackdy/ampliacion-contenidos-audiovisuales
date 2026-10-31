@@ -7,7 +7,3 @@ Guarda aquí capturas reales de Eclipse, la ejecución y GitHub. Usa PNG o JPG y
 3. `03-diagrama-uml.png`: diagrama SVG abierto en el navegador (Etapa 3).
 4. `04-nuevas-subclases.png`: `VideoYouTube` y `Cortometraje` en el paquete `uni1a` (Etapa 4).
 5. `05-ejecucion.png`: consola de Eclipse con los cinco tipos de contenido impresos (Etapa 5).
-6. `06-repositorio-github.png`: página del repositorio personal mostrando archivos (Etapa 6).
-7. `07-commits-github.png`: historial donde se vean al menos tres commits (Etapa 6).
-
-Las capturas 6 y 7 se toman después de crear y subir el repositorio personal. Puedes abrir `diagrama-clases.svg` en el navegador y tomar la captura 3.
